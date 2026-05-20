@@ -24,6 +24,8 @@ import {
   WidthType,
   AlignmentType
 } from "docx";
+// ✅ แก้ type error
+// @ts-ignore
 import { saveAs } from "file-saver";
 
 // Firebase config
